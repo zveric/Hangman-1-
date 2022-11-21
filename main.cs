@@ -43,8 +43,8 @@ class Program {
 			string strComparison = new string(acharCorrectGuess); 
 			Console.WriteLine("You have {0} Guesses left", intGuessRemaining);
 			Console.WriteLine("So far you have guessed these letters correctly: {0}", strComparison);
-			strBadGuesses = new string(acharCorrectGuess);
-			Console.WriteLine("And these letters incorectly {0}", );
+			string strBadGuesses = new string(acharBadGuess);
+			Console.WriteLine("And these letters incorectly {0}", acharBadGuess); 
 			Console.Write("Enter your guess:");
 			string strGuess = Console.ReadLine();
 			char charGuess = strGuess[0]; //Converting the string from the input into a charactor
